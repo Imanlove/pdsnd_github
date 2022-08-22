@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+#Defining a dictionary for csv data files
 CITY_DATA = { 'Chicago': 'chicago.csv',
               'New York City': 'new_york_city.csv',
               'Washington': 'washington.csv' }
