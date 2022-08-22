@@ -5,7 +5,7 @@
 BikeShare Project
 
 ### Description
-This project generates stat's and displays data lists of bikes sharing in Washington, Chicago and NewYork City.
+This project generates stat's and displays data lists of bikes sharing in Washington, Chicago and New York City, the stat's are about age, gender, common stations and most frequent date/time.
 
 ### Files used
 Bikeshre.PY
