@@ -20,7 +20,7 @@ def get_filters():
     # Getting user input for city (chicago, new york city, washington). Using a while loop to handle invalid inputs
     while True:
         city = input('Which city are interested in : Chicago, New york city or Washington:\n').title()
-        if city in ['Chicago', 'New York City' , 'Washington']:
+        if city.title() in ['Chicago', 'New York City' , 'Washington']:
             break
         print('Invalid entry, kindly try again')
 
@@ -194,10 +194,10 @@ def main():
         user_stats(df,city)
         display_dataframe(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nWould you like to restart? Enter y or n.\n')
+        if restart.lower() != 'y':
             break
-
+    print('\nGood bye..')
 
 if __name__ == "__main__":
 	main()
